@@ -1,0 +1,19 @@
+h2
+{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+}
+}
