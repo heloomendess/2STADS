@@ -1,0 +1,10 @@
+CREATE DATABASE basenotafiscal;
+
+USE basenotafiscal;
+
+CREATE TABLE `notafiscal` (
+  `idNota` int NOT NULL AUTO_INCREMENT,
+  `numeroNota` int NOT NULL,
+  `valorNota` double NOT NULL,
+  PRIMARY KEY (`idNota`)
+);
